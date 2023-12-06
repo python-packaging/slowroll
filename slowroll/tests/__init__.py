@@ -1,5 +1,7 @@
-# from .foo import FooTest
+from .api import SlowrollTest
+from .time_delta_str import TimeDeltaStrParserTest
 
 __all__ = [
-    # FooTest,
+    "SlowrollTest",
+    "TimeDeltaStrParserTest",
 ]
